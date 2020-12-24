@@ -37,6 +37,7 @@ let package = Package(
                 
                 .define("USE_PINCACHE", to: "1"),
                 .define("PIN_WEBP", to: "1"),
+                .define("SWIFT_PACKAGE", to: "1"),
                 ]),
     ]
 )
